@@ -1,43 +1,16 @@
-<script>
-    let username =""
-    let password= ""
-    function enviar(){
-      window.location.href = "/alone"
-    }
-    
-    function olvide(){
-        console.log("recuerdo")
-    }
-    
 
-</script>
-
-
-<div class="w-full max-w-xs">
-    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
-          Username
-        </label>
-        <input bind:value={username} class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
-      </div>
-      <div class="mb-6">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
-          Password
-        </label>
-        <input bind:value={password} class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
-        <p class="text-red-500 text-xs italic">Please choose a password.</p>
-      </div>
-      <div class="flex items-center justify-between">
-        <button on:click={enviar} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-          Sign In
-        </button>
-        <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/quierochipa">
-          Forgot Password?
-        </a>
-      </div>
-    </form>
-    <p class="text-center text-gray-500 text-xs">
-      &copy;2020 Acme Corp. All rights reserved.
-    </p>
+<div class="bg-indigo-900 relative overflow-hidden h-screen">
+    <img src="https://ayvisa.es/wp-content/uploads/2021/01/imagenes-random-hd-scaled.jpg" class="absolute h-full w-full object-cover" alt="teletube tinky winky"/>
+    <div class="inset-0 bg-black opacity-25 absolute">
+    </div>
+    <div class="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
+        <div class="w-full font-mono flex flex-col items-center relative z-10">
+            <h1 class="font-extrabold text-5xl text-center text-white leading-tight mt-4">
+                You&#x27;re alone here
+            </h1>
+            <p class="font-extrabold text-8xl my-44 text-white animate-bounce">
+                404
+            </p>
+        </div>
+    </div>
 </div>

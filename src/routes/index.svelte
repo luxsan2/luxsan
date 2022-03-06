@@ -1,6 +1,6 @@
 
 <div class="bg-indigo-900 relative overflow-hidden h-screen">
-    <img src="https://ayvisa.es/wp-content/uploads/2021/01/imagenes-random-hd-scaled.jpg" class="absolute h-full w-full object-cover" alt="teletube tinky winky"/>
+    <img src="https://ayvisa.es/wp-content/uploads/2021/01/imagenes-random-hd-scaled.jpg" class="absolute h-full w-full object-cover" alt="elmotemira"/>
     <div class="inset-0 bg-black opacity-25 absolute">
     </div>
     <div class="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
